@@ -1,9 +1,9 @@
-//your JS code here. If required.function updateTimer() {
-            const timerElement = document.getElementById('timer');
-            const now = new Date();
-            const dateTimeString = now.toLocaleString();
-            timerElement.textContent = dateTimeString;
-        }
+function updateTimer() {
+  const timerElement = document.getElementById('timer');
+  const now = new Date();
+  const dateTimeString = now.toLocaleString();
+  timerElement.textContent = dateTimeString;
+}
 
         // Initial call to display the timer immediately
         updateTimer();
